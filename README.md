@@ -50,7 +50,7 @@ A manually keyframed walk cycle on the rigged zombie. Sample rate is 12 frames p
 ---
 
 ## Project Structure
-
+```
 Assets/
 ├── Animations/
 │   └── ZombieWalk.anim
@@ -72,7 +72,7 @@ Assets/
 ├── zombie_leg_right.png
 ├── zombie_leg_left.png
 └── key.png
-
+```
 ---
 
 ## Scripts
