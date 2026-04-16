@@ -16,10 +16,10 @@ Works on desktop and mobile browsers. Click or tap the keys to collect them.
 
 ## Gameplay
 
-A zombie walks in from the right side of the screen. Thirteen keys spawn one at a time at random positions. Click or tap each key before the zombie reaches the left edge. Collect all thirteen to escape. Let the zombie through and it is over.
+A zombie walks in from the right side of the screen. Another walks towards the left. Thirteen keys spawn one at a time at random positions. Click or tap each key before the zombie reaches the left edge. Collect all thirteen to escape. Let the zombies through and it is over.
 
-- Win condition: collect all 13 keys before the zombie exits the screen
-- Lose condition: zombie reaches the left edge before all keys are collected
+- Win condition: collect all 13 keys before the zombies exit the screen
+- Lose condition: zombies reach the edges before all keys are collected
 - Restart and Exit buttons appear after every win or lose state
 
 ---
@@ -35,7 +35,7 @@ A key sprite rotates continuously on the Z axis at 90 degrees per second using a
 A zombie character assembled from six individually generated limb sprites: head, torso, right arm, left arm, right leg, and left leg. Each sprite has a custom pivot point set in Unity's Sprite Editor — top center for arms and legs so they rotate from the joint, bottom center for the head so it pivots from the neck. The six parts are assembled in a parent-child hierarchy with Torso, Leg_Right, and Leg_Left as direct children of the Zombie root, and Head, Arm_Right, and Arm_Left as children of Torso.
 
 **Animation 3 — Walk cycle**
-A manually keyframed walk cycle on the rigged zombie. Sample rate is 12 frames per second. Loop Time is enabled on the animation clip.
+A manually keyframed walk cycle on a flipbook zombie. Sample rate is 12 frames per second. Loop Time is enabled on the animation clip.
 
 ---
 
@@ -91,9 +91,9 @@ Assets/
 
 ## Assets
 
-Zombie limb sprites and key sprite were generated using Google Gemini and cleaned up in Adobe Photoshop. 
+Zombie limb sprites, zombie flipbook images and were generated using Google Gemini and cleaned up in Adobe Photoshop. Key sprite is from the Unity Asset store.
 
-No third-party code assets or Unity Asset Store packages were used.
+No third-party code assets were used.
 
 ---
 
